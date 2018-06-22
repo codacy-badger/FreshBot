@@ -1,0 +1,5 @@
+{
+    "prefix": "any prefix here",
+    "token": "Bot token here",
+    "game": "something what the bot should have as the game status"
+}
