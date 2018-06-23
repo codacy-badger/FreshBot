@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Created On", bot.user.createdAt)   
         .setTimestamp()    
 
-        return message.channel.send(botembed)
+        message.channel.send(botembed)
 }
 
 module.exports.help = {
