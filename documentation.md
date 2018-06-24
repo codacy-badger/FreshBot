@@ -10,5 +10,3 @@ botinfo : Sends information about the bot.
 clear <numner of messages> : Clears messages.
 ping : Sends the ping of the bot.
 ```
-
---
