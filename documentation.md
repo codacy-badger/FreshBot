@@ -11,4 +11,4 @@ clear <numner of messages> : Clears messages.
 ping : Sends the ping of the bot.
 ```
 
----
+--
