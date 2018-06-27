@@ -1,34 +1,38 @@
-# FreshBot
-A very fresh bot (For CodersClash) (Not ready for use!)
+# documentation
 
----
+## Needed to use the bot
 
-# Die Anforderungen
+* Node.js
 
-Die folgenden Anforderungen **muss** der Bot beinhalten:
+## How to install it?
 
-- [x] **Eine Config**  
-  *In dieser der Token des Bots, der Owner, die Credentials zu API's und zu der Datenbank und weitere beliebige Einstellungen getätigt werden können.*
-- [x] **Command Parser und Event Handler**  
-  *Selbstverständlich sollte der Bot die Grundbausteine nahezu aller Bots beinhalten, um funktionieren zu können.*
-- [ ] **Datenbankanbindung an MySql oder MongoDB**  
-  *Sollte für die Umsetzug der Features die Speicherung von Daten nötig sein so sollte dies über eine Datenbank erfolgen.*
-- [ ] **Permission System**  
-  *Natürlich muss es eine Verwaltung geben, welche Nutzer was machen können. Wie ganau dieses System umgesetzt ist ist Entscheidungssache des Teams.*
+First you must download git from [https://git-scm.com/](https://git-scm.com/)
 
-Die zufällig ausgewählten Sachen
+Then open a Command Prompt and execute following Command:
 
-- [ ] **XP-System** `Complex`  
-  *Vergabe von XP-Punkten an User. Unter welchen Kriterien diese erfolgt und welche Belohnungen dabei ausgeschüttet werden ist Endscheidung des Teams.*
-- [ ] **Ein Game-Feature** `Complex`  
-  *Es soll ein Chat-Game erstellt werden, welches User zusammen spielen können. Welches genau hängt von der Kreativität des Teams ab. ;)*
-- [ ] **Voting System** `Medium`  
-  *Ein System, mit dem User Votes erstellen können und unter diesen Abstimmen können.*
-- [ ] **Report-System** `Medium`  
-  *Reporting von Usern und aufzeichnung in Datenbank.* 
+```text
+$ git clone https://github.com/UnlegitHax/FreshBot.git
+```
 
-Zudem soll jeder Bot mindestens **2** weitere, **inovative** Features haben. Um was es sich dabei handelt ist vollkommen den Teams überlassen, es sollte jedoch etwas sein, was man bis jetzt noch nicht gesehen hat.
+Navigate to the folder that was created and type in the Command Prompt following Command:
 
-Natürlich können auch noch weitere dinge in den Bot implementiert werden, welche hier nicht aufgelistet sind. Es geht ja schließlich auch um das Gesamtbild des Projekts. ;)
+```text
+$ npm install
+```
 
----
+Then open the botconfig.json and type in the token and owner etc.
+
+If this is done, type in the Command Prompt
+
+```text
+$ npm start
+```
+
+And the bot should be started
+
+For the Commands type in discord
+
+```text
+<prefix>help
+```
+
