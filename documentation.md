@@ -1,4 +1,4 @@
-# Freah Bot
+# Fresh Bot
 
 A very fresh bot.
 
