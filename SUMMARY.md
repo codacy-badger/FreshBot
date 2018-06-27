@@ -1,5 +1,5 @@
 # Table of contents
 
 * [documentation](README.md)
-* [Freah Bot](documentation.md)
+* [Freah Bot](freah-bot.md)
 
