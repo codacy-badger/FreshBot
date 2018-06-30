@@ -12,7 +12,7 @@ module.exports.run = async (bot, message, args) => {
   message.channel.send(`Cleared ${args[0]} messages.`).then(msg => msg.delete(2000));
 });
 
-}
+};
 
 module.exports.help = {
   name: "clear"
