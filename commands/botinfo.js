@@ -11,10 +11,10 @@ module.exports.run = async (bot, message, args) => {
         .addField("Bot ID", bot.user.id)
         .addField("Bot Owner", "<@346680223082741770> , <@369005267158827024>  & <@384073151598034944>")
         .addField("Created On", bot.user.createdAt)   
-        .setTimestamp()    
+        .setTimestamp();
 
-        message.channel.send(botembed)
-}
+        message.channel.send(botembed);
+};
 
 module.exports.help = {
     name: "botinfo"
